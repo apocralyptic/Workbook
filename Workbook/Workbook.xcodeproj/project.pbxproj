@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE0E74DD15D767710094097A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0E74DC15D767710094097A /* Foundation.framework */; };
+		AE0E74E015D767710094097A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0E74DF15D767710094097A /* main.m */; };
+		AE0E74E415D767710094097A /* Workbook.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE0E74E315D767710094097A /* Workbook.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AE0E74D615D767710094097A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				AE0E74E415D767710094097A /* Workbook.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AE0E74D815D767710094097A /* Workbook */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Workbook; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0E74DC15D767710094097A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE0E74DF15D767710094097A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE0E74E215D767710094097A /* Workbook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Workbook-Prefix.pch"; sourceTree = "<group>"; };
+		AE0E74E315D767710094097A /* Workbook.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Workbook.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE0E74D515D767710094097A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0E74DD15D767710094097A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE0E74CD15D767710094097A = {
+			isa = PBXGroup;
+			children = (
+				AE0E74DE15D767710094097A /* Workbook */,
+				AE0E74DB15D767710094097A /* Frameworks */,
+				AE0E74D915D767710094097A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE0E74D915D767710094097A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE0E74D815D767710094097A /* Workbook */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE0E74DB15D767710094097A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE0E74DC15D767710094097A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE0E74DE15D767710094097A /* Workbook */ = {
+			isa = PBXGroup;
+			children = (
+				AE0E74DF15D767710094097A /* main.m */,
+				AE0E74E315D767710094097A /* Workbook.1 */,
+				AE0E74E115D767710094097A /* Supporting Files */,
+			);
+			path = Workbook;
+			sourceTree = "<group>";
+		};
+		AE0E74E115D767710094097A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE0E74E215D767710094097A /* Workbook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE0E74D715D767710094097A /* Workbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0E74E715D767710094097A /* Build configuration list for PBXNativeTarget "Workbook" */;
+			buildPhases = (
+				AE0E74D415D767710094097A /* Sources */,
+				AE0E74D515D767710094097A /* Frameworks */,
+				AE0E74D615D767710094097A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Workbook;
+			productName = Workbook;
+			productReference = AE0E74D815D767710094097A /* Workbook */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE0E74CF15D767710094097A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Nicholas Arcolano";
+			};
+			buildConfigurationList = AE0E74D215D767710094097A /* Build configuration list for PBXProject "Workbook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE0E74CD15D767710094097A;
+			productRefGroup = AE0E74D915D767710094097A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE0E74D715D767710094097A /* Workbook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE0E74D415D767710094097A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0E74E015D767710094097A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AE0E74E515D767710094097A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AE0E74E615D767710094097A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AE0E74E815D767710094097A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Workbook/Workbook-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE0E74E915D767710094097A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Workbook/Workbook-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE0E74D215D767710094097A /* Build configuration list for PBXProject "Workbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0E74E515D767710094097A /* Debug */,
+				AE0E74E615D767710094097A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE0E74E715D767710094097A /* Build configuration list for PBXNativeTarget "Workbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0E74E815D767710094097A /* Debug */,
+				AE0E74E915D767710094097A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE0E74CF15D767710094097A /* Project object */;
+}
