@@ -17,28 +17,11 @@
     BOOL isBoundary;  // Whether or not node is a reflective boundary point
 }
 
-// ============================================================
-// Initializer
-// ============================================================
+@property(readonly) float xPosition;
+@property(readonly) float yPosition;
+@property float height;
+@property BOOL isBoundary;
 
 -(id) initWithXPosition:(float)x yPosition:(float)y height:(float)h;
-
-// ============================================================
-// Get methods
-// ============================================================
-
--(float) xPosition;
--(float) yPosition;
--(float) height;
--(BOOL) isBoundary;
-
-// ============================================================
-// Set methods
-// ============================================================
-
--(void) setXPosition:(float)x;
--(void) setYPosition:(float)y;
--(void) setHeight:(float)h;
--(void) setBoundary:(BOOL)flag;
 
 @end

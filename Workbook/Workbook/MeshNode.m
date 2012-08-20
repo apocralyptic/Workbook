@@ -8,12 +8,15 @@
 
 #import "MeshNode.h"
 
+@interface MeshNode ()
+
+@property(readwrite) float xPosition;  // Make writable within class implementation
+@property(readwrite) float yPosition;
+
+@end
+
 @implementation MeshNode
-
-// ============================================================
-// Initializers
-// ============================================================
-
+@synthesize xPosition, yPosition, height, isBoundary;
 
 -(id) initWithXPosition:(float)x yPosition:(float)y height:(float)h
 {
@@ -22,57 +25,9 @@
         [self setXPosition:x];
         [self setYPosition:y];
         [self setHeight:h];
-        [self setBoundary:FALSE];  // Default value
+        [self setIsBoundary:FALSE];  // Default value
     }
     return self;
-}
-
-// ============================================================
-// Get methods
-// ============================================================
-
--(float) xPosition
-{
-    return xPosition;
-}
-
--(float) yPosition;
-{
-    return yPosition;
-}
-
--(float) height;
-{
-    return height;
-}
-
--(BOOL) isBoundary;
-{
-    return isBoundary;
-}
-
-// ============================================================
-// Set methods
-// ============================================================
-
--(void) setXPosition:(float)x
-{
-    xPosition = x;
-}
-
--(void) setYPosition:(float)y
-{
-    yPosition = y;
-}
-
--(void) setHeight:(float)h
-{
-    height = h;
-}
-
--(void) setBoundary:(BOOL)flag
-{
-    isBoundary = flag;
 }
 
 @end

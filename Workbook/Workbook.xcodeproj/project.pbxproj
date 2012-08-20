@@ -11,6 +11,8 @@
 		AE0E74E015D767710094097A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0E74DF15D767710094097A /* main.m */; };
 		AE0E74E415D767710094097A /* Workbook.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE0E74E315D767710094097A /* Workbook.1 */; };
 		AE0E74EC15D767F80094097A /* MeshNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0E74EB15D767F80094097A /* MeshNode.m */; };
+		AE0E74F315D7688E0094097A /* WavePoolModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0E74F215D7688E0094097A /* WavePoolModel.m */; };
+		AEBD0A3A15E1CFC100BE2704 /* WavePoolConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBD0A3915E1CFC100BE2704 /* WavePoolConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,10 @@
 		AE0E74E315D767710094097A /* Workbook.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Workbook.1; sourceTree = "<group>"; };
 		AE0E74EA15D767F80094097A /* MeshNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshNode.h; sourceTree = "<group>"; };
 		AE0E74EB15D767F80094097A /* MeshNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeshNode.m; sourceTree = "<group>"; };
+		AE0E74F115D7688E0094097A /* WavePoolModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavePoolModel.h; sourceTree = "<group>"; };
+		AE0E74F215D7688E0094097A /* WavePoolModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WavePoolModel.m; sourceTree = "<group>"; };
+		AEBD0A3815E1CFC100BE2704 /* WavePoolConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavePoolConstants.h; sourceTree = "<group>"; };
+		AEBD0A3915E1CFC100BE2704 /* WavePoolConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WavePoolConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +82,14 @@
 		AE0E74DE15D767710094097A /* Workbook */ = {
 			isa = PBXGroup;
 			children = (
-				AE0E74DF15D767710094097A /* main.m */,
-				AE0E74EA15D767F80094097A /* MeshNode.h */,
-				AE0E74EB15D767F80094097A /* MeshNode.m */,
 				AE0E74E315D767710094097A /* Workbook.1 */,
+				AE0E74EA15D767F80094097A /* MeshNode.h */,
+				AEBD0A3815E1CFC100BE2704 /* WavePoolConstants.h */,
+				AE0E74F115D7688E0094097A /* WavePoolModel.h */,
+				AE0E74DF15D767710094097A /* main.m */,
+				AE0E74EB15D767F80094097A /* MeshNode.m */,
+				AEBD0A3915E1CFC100BE2704 /* WavePoolConstants.m */,
+				AE0E74F215D7688E0094097A /* WavePoolModel.m */,
 				AE0E74E115D767710094097A /* Supporting Files */,
 			);
 			path = Workbook;
@@ -146,6 +156,8 @@
 			files = (
 				AE0E74E015D767710094097A /* main.m in Sources */,
 				AE0E74EC15D767F80094097A /* MeshNode.m in Sources */,
+				AE0E74F315D7688E0094097A /* WavePoolModel.m in Sources */,
+				AEBD0A3A15E1CFC100BE2704 /* WavePoolConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +250,7 @@
 				AE0E74E915D767710094097A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
