@@ -10,15 +10,15 @@
 
 @interface MeshNode ()
 
-@property(readwrite) float xPosition;  // Make writable within class implementation
-@property(readwrite) float yPosition;
+@property(readwrite) CGFloat xPosition;  // Make writeable within class implementation
+@property(readwrite) CGFloat yPosition;
 
 @end
 
 @implementation MeshNode
 @synthesize xPosition, yPosition, height, isBoundary;
 
--(id) initWithXPosition:(float)x yPosition:(float)y height:(float)h
+-(id) initWithXPosition:(CGFloat)x yPosition:(CGFloat)y height:(CGFloat)h
 {
     if (self = [super init])
     {

@@ -20,4 +20,9 @@
     return 1;  // Damping coefficient for wave model
 }
 
++(float) defaultDropletHeight
+{
+    return 1;  // Default height of droplet
+}
+
 @end

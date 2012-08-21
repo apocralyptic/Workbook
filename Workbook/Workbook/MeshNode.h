@@ -11,17 +11,17 @@
 
 @interface MeshNode : NSObject
 {
-    float xPosition;  // x-coordinate of node (meters)
-    float yPosition;  // y-coordinate of node (meters)
-    float height;  // height of water at node (meters)
+    CGFloat xPosition;  // x-coordinate of node (meters)
+    CGFloat yPosition;  // y-coordinate of node (meters)
+    CGFloat height;  // height of water at node (meters)
     BOOL isBoundary;  // Whether or not node is a reflective boundary point
 }
 
-@property(readonly) float xPosition;
-@property(readonly) float yPosition;
-@property float height;
+@property(readonly) CGFloat xPosition;
+@property(readonly) CGFloat yPosition;
+@property CGFloat height;
 @property BOOL isBoundary;
 
--(id) initWithXPosition:(float)x yPosition:(float)y height:(float)h;
+-(id) initWithXPosition:(CGFloat)x yPosition:(CGFloat)y height:(CGFloat)h;
 
 @end

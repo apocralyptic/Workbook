@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "MeshNode.h"
+#import "WavePoolModel.h"
+#import "WavePoolConstants.h"
 
 int main(int argc, const char * argv[])
 {
@@ -105,6 +107,20 @@ int main(int argc, const char * argv[])
         }
     }
     
-     return 0;
+    NSLog(@"=========================================");
+    
+    // Testing WavePoolModel class initialization
+    
+    WavePoolModel* thePool;
+    thePool = [[WavePoolModel alloc] initWithRows:4 columns:3 width:16 length:21];
+    
+    // Add droplet
+    [thePool addDropletWithXPosition:10.75 yPosition:15];
+    
+    // Display WavePoolModel properties
+    meshGrid = [thePool meshGrid];
+    [thePool displayMeshState];
+    
+    return 0;
 }
 

@@ -12,5 +12,6 @@
 
 +(float) accelerationDueToGravity;
 +(float) dampingCoefficient;
++(float) defaultDropletHeight;
 
 @end
